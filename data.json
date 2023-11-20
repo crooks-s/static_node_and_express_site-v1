@@ -1,0 +1,49 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project-name": "Random Quote Generator",
+            "description": "value",
+            "technologies": "value",
+            "live-link": "host on GitHub pages",
+            "github-link": "GitHub repo",
+            "image-urls": "value"
+        },
+        {
+            "id": 1,
+            "project-name": "Data Pagination and Filtering",
+            "description": "value",
+            "technologies": "value",
+            "live-link": "host on GitHub pages",
+            "github-link": "GitHub repo",
+            "image-urls": "value"
+        },
+        {
+            "id": 2,
+            "project-name": "Interactive Form",
+            "description": "value",
+            "technologies": "value",
+            "live-link": "host on GitHub pages",
+            "github-link": "GitHub repo",
+            "image-urls": "value"
+        },
+        {
+            "id": 3,
+            "project-name": "Object-Oriented Programming Game Application",
+            "description": "value",
+            "technologies": "value",
+            "live-link": "host on GitHub pages",
+            "github-link": "GitHub repo",
+            "image-urls": "value"
+        },
+        {
+            "id": 4,
+            "project-name": "User Files: API and Modal",
+            "description": "value",
+            "technologies": "value",
+            "live-link": "host on GitHub pages",
+            "github-link": "GitHub repo",
+            "image-urls": "value"
+        }
+    ]
+}
