@@ -8,7 +8,7 @@ app.set('view engine', 'pug');
 
 // Home Page
 app.get('/', (req, res, next) => {
-    res.locals.projects = projects;
+    res.locals.projects = projects; 
     res.render('layout');
 });
 
@@ -19,7 +19,9 @@ app.get('/about', (req, res, next) => {
 
 // Projects Page, dynamic id
 app.get('/projects/:id', (req, res, next) => {
-    res.render('project');
+    res.locals.projects = projects;
+    const id = req.params.id;
+    res.render('project', { id });
 });
 
 
