@@ -3,8 +3,12 @@
         {
             "id": 0,
             "project-name": "Random Quote Generator",
-            "description": "value",
-            "technologies": "value",
+            "description": "This application presents a random quote onto the webpage with different background colors.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
             "live-link": "host on GitHub pages",
             "github-link": "GitHub repo",
             "image-urls": [
@@ -16,8 +20,12 @@
         {
             "id": 1,
             "project-name": "Data Pagination and Filtering",
-            "description": "value",
-            "technologies": "value",
+            "description": "This application presents a list of students. Pagination feature was added to show 9 students per page. Real-time search functionality was added to the search bar by making a 'keyup' event listener.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
             "live-link": "host on GitHub pages",
             "github-link": "GitHub repo",
             "image-urls": [
@@ -28,8 +36,12 @@
         {
             "id": 2,
             "project-name": "Interactive Form",
-            "description": "value",
-            "technologies": "value",
+            "description": "This application presents a webpage in which the user fills out a form. Real-time data is presented to the user for each form field. Some fields are disabled if there is conflicting data. For example, the user cannot register for two activities that occur at the same time.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
             "live-link": "host on GitHub pages",
             "github-link": "GitHub repo",
             "image-urls": [
@@ -41,8 +53,12 @@
         {
             "id": 3,
             "project-name": "Object-Oriented Programming Game Application",
-            "description": "value",
-            "technologies": "value",
+            "description": "This application presents a game called Phrase Hunter. Upon starting the game, a phrase is hidden from the player. The player must choose letters on the webpage in order to correctly guess the hidden phrase. Upon 5 incorrect guesses, the players loses and may choose to play again. Upon fully revealing the hidden phrase, the player wins and may choose to play again.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
             "live-link": "host on GitHub pages",
             "github-link": "GitHub repo",
             "image-urls": [
@@ -54,8 +70,12 @@
         {
             "id": 4,
             "project-name": "User Files: API and Modal",
-            "description": "value",
-            "technologies": "value",
+            "description": "This application presents a compilation of 12 random users retrieved through the 'randomuser.me' API. Upon clicking a user card, a modal is created and displayed with additional information about the selected user. The modals may be closed with using the 'escape' key on the physical keyboard, clicking out of the modal, or clicking the 'X' close button on the modal.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
             "live-link": "host on GitHub pages",
             "github-link": "GitHub repo",
             "image-urls": [
