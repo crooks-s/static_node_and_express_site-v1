@@ -8,9 +8,9 @@
             "live-link": "host on GitHub pages",
             "github-link": "GitHub repo",
             "image-urls": [
-                "static/images/p1-quote-generator/p1-1.png",
-                "static/images/p1-quote-generator/p1-2.png",
-                "static/images/p1-quote-generator/p1-3.png"
+                "/static/images/p1-quote-generator/p1-1.png",
+                "/static/images/p1-quote-generator/p1-2.png",
+                "/static/images/p1-quote-generator/p1-3.png"
             ]
         },
         {
@@ -21,8 +21,8 @@
             "live-link": "host on GitHub pages",
             "github-link": "GitHub repo",
             "image-urls": [
-                "static/images/p2-pagination/filter.png",
-                "static/images/p2-pagination/index.png"
+                "/static/images/p2-pagination/filter.png",
+                "/static/images/p2-pagination/index.png"
             ]
         },
         {
@@ -33,9 +33,9 @@
             "live-link": "host on GitHub pages",
             "github-link": "GitHub repo",
             "image-urls": [
-                "static/images/p3-interactive-form/empty-input-fields.png",
-                "static/images/p3-interactive-form/filled-out.png",
-                "static/images/p3-interactive-form/disabled-time-conflicts.png"
+                "/static/images/p3-interactive-form/empty-input-fields.png",
+                "/static/images/p3-interactive-form/filled-out.png",
+                "/static/images/p3-interactive-form/disabled-time-conflicts.png"
             ]
         },
         {
@@ -46,9 +46,9 @@
             "live-link": "host on GitHub pages",
             "github-link": "GitHub repo",
             "image-urls": [
-                "static/images/p4-oop-game/start.png",
-                "static/images/p4-oop-game/partial-complete.png",
-                "static/images/p4-oop-game/empty-fields.png"
+                "/static/images/p4-oop-game/start.png",
+                "/static/images/p4-oop-game/partial-complete.png",
+                "/static/images/p4-oop-game/empty-fields.png"
             ]
         },
         {
@@ -59,8 +59,8 @@
             "live-link": "host on GitHub pages",
             "github-link": "GitHub repo",
             "image-urls": [
-                "static/images/p5-student-files/index.png",
-                "static/images/p5-student-files/modal.png"
+                "/static/images/p5-student-files/index.png",
+                "/static/images/p5-student-files/modal.png"
             ]
         }
     ]
