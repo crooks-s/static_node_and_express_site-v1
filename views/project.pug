@@ -11,12 +11,10 @@ block content
     .inner-wrapper.flex-row-wrap.two-col
       .project-info-box.box
 
-        //- Use the info in your data file and the comments below to complete this template
-
-        //- Use interpolation to dynamically add the project title
+        //- Dynamically update project title
         h1= projects[id]["project-name"]
 
-        //- Use interpolation to dynamically add the project description
+        //- Dynamically update description
         p= projects[id].description
 
       .project-tech-links-box.box
@@ -25,7 +23,6 @@ block content
           each item in projects[id].technologies
             li= item
 
-        //- Add the href values to the links below
         a.btn-link(href= projects[id]["github-link"] target= "_blank") Live Demo
         a.btn-link(href= projects[id]["github-link"] target= "_blank") GitHub Repo
 
