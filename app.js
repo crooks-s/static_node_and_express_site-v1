@@ -4,25 +4,28 @@ const { projects } = require('./data.json');
 const app = express();
 
 app.use('/static', express.static('public'));
+app.set('view engine', 'pug');
 
 // Home Page
 app.get('/', (req, res, next) => {
     res.locals.projects = projects;
-    res.send('<h1>HOME PAGE</h1>');
+    res.render('layout');
 });
 
+// About Page
 app.get('/about', (req, res, next) => {
-    // res.render();
-    res.send('<h1>ABOUT</h2>');
-
+    res.render('about');
 });
 
+// Projects Page, dynamic id
 app.get('/projects/:id', (req, res, next) => {
-    // res.render();
-    res.send('<h1>PROJECTS</h2>');
+    res.render('project');
 });
 
 
+/**====================
+ * Error Handling
+ ======================*/
 
 app.use((req, res, next) => {
     const err = new Error('Page not found');
@@ -38,7 +41,9 @@ app.use((err, req, res, next) => {
     res.status(err.status || 500).send(err.message);
 });
 
-// Start server
+/**====================
+ * Start Server
+ ======================*/
 app.listen(3000, () => {
     console.log('Listening on port: 3000');
 });
