@@ -1,9 +1,12 @@
 const express = require('express');
+const path = require('node:path');
 const { projects } = require('./data.json'); 
 
 const app = express();
 
-app.use('/static', express.static('public'));
+const publicPath = path.join(__dirname, 'public');
+
+app.use('/static', express.static(publicPath));
 app.set('view engine', 'pug');
 
 // Home Page
