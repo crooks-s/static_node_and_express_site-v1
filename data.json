@@ -7,7 +7,8 @@
             "technologies": [
                 "HTML",
                 "CSS",
-                "JavaScript"
+                "JavaScript",
+                "Git and GitHub"
             ],
             "live-link": "host on GitHub pages",
             "github-link": "GitHub repo",
@@ -24,7 +25,8 @@
             "technologies": [
                 "HTML",
                 "CSS",
-                "JavaScript"
+                "JavaScript",
+                "Git and GitHub"
             ],
             "live-link": "host on GitHub pages",
             "github-link": "GitHub repo",
@@ -40,7 +42,9 @@
             "technologies": [
                 "HTML",
                 "CSS",
-                "JavaScript"
+                "JavaScript",
+                "Git and GitHub",
+                "Node.js"
             ],
             "live-link": "host on GitHub pages",
             "github-link": "GitHub repo",
@@ -57,7 +61,10 @@
             "technologies": [
                 "HTML",
                 "CSS",
-                "JavaScript"
+                "JavaScript",
+                "Git and GitHub",
+                "Node.js"
+
             ],
             "live-link": "host on GitHub pages",
             "github-link": "GitHub repo",
@@ -74,7 +81,9 @@
             "technologies": [
                 "HTML",
                 "CSS",
-                "JavaScript"
+                "JavaScript",
+                "Git and GitHub",
+                "Node.js"
             ],
             "live-link": "host on GitHub pages",
             "github-link": "GitHub repo",
