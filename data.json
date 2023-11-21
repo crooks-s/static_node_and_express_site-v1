@@ -31,8 +31,8 @@
             "live-link": "host on GitHub pages",
             "github-link": "https://github.com/crooks-s/data-pagination-and-filtering-v1",
             "image-urls": [
-                "/static/images/p2-pagination/filter.png",
-                "/static/images/p2-pagination/index.png"
+                "/static/images/p2-pagination/index.png",
+                "/static/images/p2-pagination/filter.png"
             ]
         },
         {
@@ -49,8 +49,8 @@
             "live-link": "host on GitHub pages",
             "github-link": "https://github.com/crooks-s/interactive-form-v3",
             "image-urls": [
-                "/static/images/p3-interactive-form/empty-input-fields.png",
                 "/static/images/p3-interactive-form/filled-out.png",
+                "/static/images/p3-interactive-form/empty-input-fields.png",
                 "/static/images/p3-interactive-form/disabled-time-conflicts.png"
             ]
         },
