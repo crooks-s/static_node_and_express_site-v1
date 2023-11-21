@@ -4,24 +4,18 @@ block content
 
   article.portfolio-intro
 
-    //- Replace with your own heading like 'My Portfolio', or 'Hey, Potential Employers', or 'Let's make the web great together!' 
+    // Portfolio title
     h1 Hello, world!
 
-    //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
+    // Portfolio description
     p This site presents all of my completed software development projects. Previews are displayed below and more detailed information can be seen upon clicking a specific project. All projects have a corresponding link to my GitHub repository. If you'd like to reach out, please see my <a href= '/about' style='color: blue'>contact information</a>.
 
 
   article.portfolio-project-thumbs
     .projects-box.box.grid
 
-      //- Use the Pug `each` iterator to loop over the projects in your data file  
-      each project in projects
-      
-        //- Use the example Pug code below and interpolated template literals as needed to dynamically generate:
-          //- The paths in the link's href and img's src attributes
-          //- The text 'Thumbnail' interpolated with the project title for the img's alt attribute
-          //- The project title for the h5 element's text
-
+      // Generate previews on home page for each project  
+      each project in projects      
         .cell
           a(href=`/projects/${project.id}`)
             img.thumbnail(src= `${project["image-urls"][0]}`, alt=`Image of Project ${project["project-name"]}`)
