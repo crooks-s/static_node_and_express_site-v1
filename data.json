@@ -11,7 +11,7 @@
                 "Git and GitHub"
             ],
             "live-link": "host on GitHub pages",
-            "github-link": "GitHub repo",
+            "github-link": "https://github.com/crooks-s/a_random_quote_generator-v1",
             "image-urls": [
                 "/static/images/p1-quote-generator/p1-1.png",
                 "/static/images/p1-quote-generator/p1-2.png",
@@ -29,7 +29,7 @@
                 "Git and GitHub"
             ],
             "live-link": "host on GitHub pages",
-            "github-link": "GitHub repo",
+            "github-link": "https://github.com/crooks-s/data-pagination-and-filtering-v1",
             "image-urls": [
                 "/static/images/p2-pagination/filter.png",
                 "/static/images/p2-pagination/index.png"
@@ -47,7 +47,7 @@
                 "Node.js"
             ],
             "live-link": "host on GitHub pages",
-            "github-link": "GitHub repo",
+            "github-link": "https://github.com/crooks-s/interactive-form-v3",
             "image-urls": [
                 "/static/images/p3-interactive-form/empty-input-fields.png",
                 "/static/images/p3-interactive-form/filled-out.png",
@@ -67,7 +67,7 @@
 
             ],
             "live-link": "host on GitHub pages",
-            "github-link": "GitHub repo",
+            "github-link": "https://github.com/crooks-s/oop_game-v2",
             "image-urls": [
                 "/static/images/p4-oop-game/start.png",
                 "/static/images/p4-oop-game/partial-complete.png",
@@ -86,7 +86,7 @@
                 "Node.js"
             ],
             "live-link": "host on GitHub pages",
-            "github-link": "GitHub repo",
+            "github-link": "https://github.com/crooks-s/student-files",
             "image-urls": [
                 "/static/images/p5-student-files/index.png",
                 "/static/images/p5-student-files/modal.png"
