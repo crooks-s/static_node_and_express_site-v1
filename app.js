@@ -12,7 +12,7 @@ app.set('view engine', 'pug');
 // Home Page
 app.get('/', (req, res, next) => {
     res.locals.projects = projects; 
-    res.render('layout');
+    res.render('index');
 });
 
 // About Page
