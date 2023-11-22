@@ -43,11 +43,13 @@ app.get('/projects', (req, res, next) => {
 app.use((req, res, next) => {
     const err = new Error('Page not found');
     err.status = 404;
-    res.status(err.status).send(err.message);
+    next(err);
 });
 
-app.use((err, req, res, next) => {
-    res.status(err.status || 500).send(err.message);
+app.use( (err, req, res, next) => {
+    const statusCode = err.status || 500;
+    console.error(err);
+    res.status(statusCode).send(err.message || 'Internal server error');
 });
 
 /**====================
