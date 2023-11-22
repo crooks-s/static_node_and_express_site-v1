@@ -41,7 +41,7 @@ app.get('/projects', (req, res, next) => {
  ======================*/
 
 app.use((req, res, next) => {
-    const err = new Error('Page not found');
+    const err = new Error('Attempted to access an unavailable web page');
     err.status = 404;
     next(err);
 });
@@ -49,7 +49,7 @@ app.use((req, res, next) => {
 app.use( (err, req, res, next) => {
     const statusCode = err.status || 500;
     console.error(err);
-    res.status(statusCode).send(err.message || 'Internal server error');
+    res.render('page-not-found', { err, statusCode });
 });
 
 /**====================

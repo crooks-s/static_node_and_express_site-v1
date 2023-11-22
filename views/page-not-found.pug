@@ -1,0 +1,13 @@
+extends layout.pug
+
+block content
+
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back to Home Page
+
+    h1 Sorry, a problem occured!
+        h2 Error #{err.status}
+        h2 #{err.message}
+            p #{err.stack}
