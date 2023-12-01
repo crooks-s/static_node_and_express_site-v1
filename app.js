@@ -25,14 +25,9 @@ app.get('/projects/:id', (req, res, next) => {
     res.locals.projects = projects;
     const id = req.params.id;
     if (!id || parseInt(id) < 0 || parseInt(id) >= projects.length) {
-        res.redirect('/');
+        next();
     }
     res.render('project', { id });
-});
-
-app.get('/projects', (req, res, next) => {
-    res.locals.projects = projects;
-    res.render('index');
 });
 
 
