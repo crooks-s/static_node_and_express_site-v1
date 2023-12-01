@@ -48,7 +48,6 @@ app.use((req, res, next) => {
 
 app.use( (err, req, res, next) => {
     const statusCode = err.status || 500;
-    console.error(err);
     res.render('page-not-found', { err, statusCode });
 });
 
