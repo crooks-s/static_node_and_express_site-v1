@@ -91,6 +91,24 @@
                 "/static/images/p5-student-files/index.png",
                 "/static/images/p5-student-files/modal.png"
             ]
+        },
+        {
+            "id": 5,
+            "project-name": "School Courses",
+            "description": "This is a full stack application using React on the front-end and Express, SQL/SQLite3 on the back-end.",
+            "technologies": [
+                "Express",
+                "SQL/SQLite3",
+                "React",
+                "Git and GitHub"
+            ],
+            "live-link": "https://p10-frontend-production.up.railway.app/",
+            "github-link": "https://github.com/crooks-s/full-stack-app-with-react-and-a-rest-api-v1",
+            "image-urls": [
+                "/static/images/p10-fullstack/p10-1.png",
+                "/static/images/p10-fullstack/p10-2.png",
+                "/static/images/p10-fullstack/p10-3.png"
+            ]
         }
     ]
 }
