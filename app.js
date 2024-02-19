@@ -9,6 +9,9 @@ const publicPath = path.join(__dirname, 'public');
 app.use('/static', express.static(publicPath));
 app.set('view engine', 'pug');
 
+// Set port number
+const port = process.env.PORT || 3000;
+
 // Home Page
 app.get('/', (req, res, next) => {
     res.locals.projects = projects; 
@@ -49,6 +52,6 @@ app.use( (err, req, res, next) => {
 /**====================
  * Start Server
  ======================*/
-app.listen(3000, () => {
-    console.log('Listening on port: 3000');
+app.listen(port, () => {
+    console.log(`Listening on port: ${port}`);
 });
