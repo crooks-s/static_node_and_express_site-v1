@@ -23,7 +23,8 @@ block content
           each item in projects[id].technologies
             li= item
 
-        a.btn-link(href= projects[id]["live-link"] target= "_blank") Live Demo
+        if projects[id]["live-link"]
+          a.btn-link(href= projects[id]["live-link"] target= "_blank") Live Demo
         a.btn-link(href= projects[id]["github-link"] target= "_blank") GitHub Repo
 
     .project-img-box.box
