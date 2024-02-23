@@ -101,7 +101,7 @@
                 "React",
                 "Git and GitHub"
             ],
-            "live-link": "https://p10-frontend-production.up.railway.app/",
+            "live-link": "https://fullstackapp.up.railway.app",
             "github-link": "https://github.com/crooks-s/full-stack-app-with-react-and-a-rest-api-v1",
             "image-urls": [
                 "/static/images/p10-fullstack/p10-1.png",
@@ -134,7 +134,7 @@
                 "SQL",
                 "PUG"
             ],
-            "live-link": "https://sqllibrarymanager-v1-production-ad85.up.railway.app",
+            "live-link": "https://lib-mgr.up.railway.app",
             "github-link": "https://github.com/crooks-s/sql_library_manager-v1",
             "image-urls": [
                 "/static/images/p8-sql-library-mgr/p8-1.png",
