@@ -134,7 +134,7 @@
                 "SQL",
                 "PUG"
             ],
-            "live-link": "",
+            "live-link": "https://sqllibrarymanager-v1-production-ad85.up.railway.app",
             "github-link": "https://github.com/crooks-s/sql_library_manager-v1",
             "image-urls": [
                 "/static/images/p8-sql-library-mgr/p8-1.png",
