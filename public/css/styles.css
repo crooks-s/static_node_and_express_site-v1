@@ -287,6 +287,10 @@ nav a span {
   margin-bottom: 35px;
 }
 
+.skills-contact-box h2 {
+  font-size: 18px;
+}
+
 .project-img {
   width: 100%;
   max-width: 1065px;
