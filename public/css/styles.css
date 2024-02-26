@@ -272,9 +272,15 @@ nav a span {
   font-size: 125%;
 }
 
+.about-intro-box h1
+ {
+  font-size: 125%;
+  margin-bottom: 0;
+}
+
 .about-bio p {
   font-size: 15px;
-  padding-top: 40px;
+  padding-top: 0px;
 }
 
 .skills-contact-box ul {
