@@ -289,6 +289,16 @@ nav a span {
 
 .skills-contact-box h2 {
   font-size: 18px;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 
 .project-img {

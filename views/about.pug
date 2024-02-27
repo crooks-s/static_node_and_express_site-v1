@@ -1,6 +1,7 @@
 extends layout.pug
 
 block content
+  a(href='#about-bio').skip-link Jump to About Bio
 
   nav.nav
     a(href='/')
@@ -9,14 +10,14 @@ block content
 
   article.portfolio-about
     .inner-wrapper.flex-row-wrap.two-col
-      .about-intro-box.box
+      .about-intro-box.box(aria-label="About bio content" role='main')
 
         h1 Sean Crooks
 
         p BSN-RN turned Full Stack Developer 
 
 
-        .about-bio
+        .about-bio(id='about-bio')
 
           p I began studying software development in 2023 on the following platforms: <em>Treehouse, CodeCademy, LeetCode</em>, and <em>freeCodeCamp</em>. As a software developer, I aim to create innovative solutions to boost productivity and improve accessibility through implementing WCAG guidelines.
           p.about-bio-2 I have 9 years of nursing experience, most of which is in MICU and CVICU. My critical-care nursing skills seamlessly translate into software development, offering a blend of professionalism, attention to detail, and adaptability; all of which are essential to effective problem-solving and user-centered software development. I excel in multi-disciplinary teams, demonstrating strong leadership and exceptional communication abilities to facilitate team progress. 
