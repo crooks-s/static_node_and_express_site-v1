@@ -283,11 +283,19 @@ nav a span {
   padding-top: 0px;
 }
 
+.about-bio-child-container {
+  display: flex;
+}
+
+.about-bio-child {
+  width: 50%;
+}
+
 .skills-contact-box ul {
   margin-bottom: 35px;
 }
 
-.skills-contact-box h2 {
+.about-bio h2 {
   font-size: 18px;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
