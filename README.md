@@ -21,6 +21,4 @@ Clone the project.
 Sean Crooks
 
 ## Contributions
-Team Treehouse supplied all files except 'Phrase.js', 'Game.js', and 'app.js'. 
-These files were created and written solely by author. 
-
+Team Treehouse supplied foundational CSS and project guidelines.
