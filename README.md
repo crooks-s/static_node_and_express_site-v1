@@ -7,7 +7,7 @@ CSS. Express.js. Node.js. Pug.
 
 ## Process/Learning (to be updated)
 
-## Improvement
+## Improvement (to be updated)
 
 ## Running the Project
 Clone the project.
